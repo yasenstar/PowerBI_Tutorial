@@ -1,6 +1,6 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="PowerBI Tutorial&#xa;(Jack Hyman)" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1726976321802"><hook NAME="MapStyle" background="#f5f5dc" zoom="0.592">
+<node TEXT="PowerBI Tutorial&#xa;(Jack Hyman)" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1726976321802"><hook NAME="MapStyle" background="#f5f5dc" zoom="1.001">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" associatedTemplateLocation="template:/light_sepia_template.mm"/>
 
 <map_styles>
@@ -409,7 +409,16 @@
 <node TEXT="Use to complete actions to locate and move between a workspace and the various Power BI capabilities - dashboards, reports, workbooks, datasets - whatever" ID="ID_282529493" CREATED="1727006061133" MODIFIED="1727006101037"/>
 </node>
 </node>
-<node TEXT="01.4 Business Intelligent (BI): The Definition" ID="ID_1034053194" CREATED="1726972976166" MODIFIED="1726972987006"/>
+<node TEXT="01.4 Business Intelligent (BI): The Definition" ID="ID_1034053194" CREATED="1726972976166" MODIFIED="1727006331682" LINK="https://en.wikipedia.org/wiki/Business_intelligence">
+<node TEXT="Business Intelligence is what businesses use in order to be in a position where they can analyze current as well as historical data." ID="ID_641840480" CREATED="1727006404547" MODIFIED="1727006446061"/>
+<node TEXT="Throughout the process of data analysis, the hope is that an organization will be able to uncover the insights needed to make the right decisions for the business&apos; future." ID="ID_929090603" CREATED="1727006593101" MODIFIED="1727006626366"/>
+<node TEXT="BI tools can help transform raw data into readily accessible data:" ID="ID_887070685" CREATED="1727006822784" MODIFIED="1727006854072">
+<node TEXT="1. Collect and transform your data" ID="ID_1152964057" CREATED="1727006854075" MODIFIED="1727006863224"/>
+<node TEXT="2. Analyze data to discover trends" ID="ID_378754445" CREATED="1727006863376" MODIFIED="1727006871489"/>
+<node TEXT="3. Use visualization options in order to provide data clarity" ID="ID_916226580" CREATED="1727006871678" MODIFIED="1727006883850"/>
+<node TEXT="4. Taking action and making decisions" ID="ID_1165121897" CREATED="1727006884016" MODIFIED="1727006890297"/>
+</node>
+</node>
 </node>
 <node TEXT="CH02 The Who, How, and What of Power BI" ID="ID_242419806" CREATED="1726971953768" MODIFIED="1726971968418">
 <node TEXT="02.1 Highlighting the Who of Power BI" ID="ID_1806464625" CREATED="1726973709478" MODIFIED="1726973793614"/>
