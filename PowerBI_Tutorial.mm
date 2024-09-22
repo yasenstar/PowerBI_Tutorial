@@ -1,6 +1,6 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="PowerBI Tutorial&#xa;(Jack Hyman)" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1726976321802"><hook NAME="MapStyle" background="#f5f5dc" zoom="1.001">
+<node TEXT="PowerBI Tutorial&#xa;(Jack Hyman)" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1726976321802"><hook NAME="MapStyle" background="#f5f5dc" zoom="0.77">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" associatedTemplateLocation="template:/light_sepia_template.mm"/>
 
 <map_styles>
@@ -96,7 +96,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Part 0: Introduction" FOLDED="true" POSITION="bottom_or_right" ID="ID_1028666299" CREATED="1726972859862" MODIFIED="1726972867743">
+<node TEXT="Part 0: Introduction" POSITION="bottom_or_right" ID="ID_1028666299" CREATED="1726972859862" MODIFIED="1726972867743">
 <node TEXT="0.0 Preface" FOLDED="true" ID="ID_49398649" CREATED="1726983484173" MODIFIED="1726983490284">
 <node TEXT="What does Business Intelligence (BI) require?" FOLDED="true" ID="ID_359010660" CREATED="1726983490291" MODIFIED="1726983508726">
 <node TEXT="Basic: querying data sources, reporting, caching data, and visualizing data" ID="ID_751155302" CREATED="1726983508728" MODIFIED="1726983558662"/>
@@ -151,7 +151,7 @@
 <node TEXT="Sample Dataset" ID="ID_1921186105" CREATED="1726985334247" MODIFIED="1726985384970" LINK="https://www.wiley.com/en-kr/Microsoft+Power+BI+For+Dummies-p-9781119824893#downloadstab-section"/>
 </node>
 </node>
-<node TEXT="Part 1: Put Your BI Thinking Caps On" POSITION="bottom_or_right" ID="ID_464770271" CREATED="1726968339677" MODIFIED="1726985533973"><richcontent TYPE="NOTE">
+<node TEXT="Part 1: Put Your BI Thinking Caps On" FOLDED="true" POSITION="bottom_or_right" ID="ID_464770271" CREATED="1726968339677" MODIFIED="1726985533973"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -409,10 +409,10 @@
 <node TEXT="Use to complete actions to locate and move between a workspace and the various Power BI capabilities - dashboards, reports, workbooks, datasets - whatever" ID="ID_282529493" CREATED="1727006061133" MODIFIED="1727006101037"/>
 </node>
 </node>
-<node TEXT="01.4 Business Intelligent (BI): The Definition" ID="ID_1034053194" CREATED="1726972976166" MODIFIED="1727006331682" LINK="https://en.wikipedia.org/wiki/Business_intelligence">
+<node TEXT="01.4 Business Intelligent (BI): The Definition" FOLDED="true" ID="ID_1034053194" CREATED="1726972976166" MODIFIED="1727006331682" LINK="https://en.wikipedia.org/wiki/Business_intelligence">
 <node TEXT="Business Intelligence is what businesses use in order to be in a position where they can analyze current as well as historical data." ID="ID_641840480" CREATED="1727006404547" MODIFIED="1727006446061"/>
 <node TEXT="Throughout the process of data analysis, the hope is that an organization will be able to uncover the insights needed to make the right decisions for the business&apos; future." ID="ID_929090603" CREATED="1727006593101" MODIFIED="1727006626366"/>
-<node TEXT="BI tools can help transform raw data into readily accessible data:" ID="ID_887070685" CREATED="1727006822784" MODIFIED="1727006854072">
+<node TEXT="BI tools can help transform raw data into readily accessible data:" FOLDED="true" ID="ID_887070685" CREATED="1727006822784" MODIFIED="1727006854072">
 <node TEXT="1. Collect and transform your data" ID="ID_1152964057" CREATED="1727006854075" MODIFIED="1727006863224"/>
 <node TEXT="2. Analyze data to discover trends" ID="ID_378754445" CREATED="1727006863376" MODIFIED="1727006871489"/>
 <node TEXT="3. Use visualization options in order to provide data clarity" ID="ID_916226580" CREATED="1727006871678" MODIFIED="1727006883850"/>
