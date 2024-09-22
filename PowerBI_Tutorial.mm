@@ -1,6 +1,6 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="PowerBI Tutorial&#xa;(Jack Hyman)" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1726976321802"><hook NAME="MapStyle" background="#f5f5dc">
+<node TEXT="PowerBI Tutorial&#xa;(Jack Hyman)" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1726976321802"><hook NAME="MapStyle" background="#f5f5dc" zoom="0.592">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" associatedTemplateLocation="template:/light_sepia_template.mm"/>
 
 <map_styles>
@@ -248,8 +248,8 @@
 <node TEXT="If the serialized language can communicate and speak the same language, a semistructured dataset has great potential" ID="ID_1775452133" CREATED="1726991329881" MODIFIED="1726991351932"/>
 </node>
 </node>
-<node TEXT="01.2 Looking Under the Power BI Hood (引擎罩, 兜帽)" ID="ID_529986292" CREATED="1726972951695" MODIFIED="1726991564419">
-<node ID="ID_568535843" CREATED="1726991582962" MODIFIED="1726991667246"><richcontent TYPE="NODE">
+<node TEXT="01.2 Looking Under the Power BI Hood (引擎罩, 兜帽)" FOLDED="true" ID="ID_529986292" CREATED="1726972951695" MODIFIED="1726991564419">
+<node FOLDED="true" ID="ID_568535843" CREATED="1726991582962" MODIFIED="1726991667246"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -263,13 +263,27 @@
 </html>
 
 </richcontent>
-<node TEXT="Power Query: a data connection tool you can use to transform, combine, and enhance data across several data sources" ID="ID_593810483" CREATED="1726991821509" MODIFIED="1726991858669"/>
-<node TEXT="Power Pivot: a data modeling tool" ID="ID_1074529225" CREATED="1726991858826" MODIFIED="1726991868629"/>
-<node TEXT="Power View: a data visualization tool you can use to generate interactive charts, graphs, maps and visuals" ID="ID_190818353" CREATED="1726991980132" MODIFIED="1726992007734"/>
-<node TEXT="Power Map: a visualization tool for creating 3D map renderings" ID="ID_1502769128" CREATED="1726992007883" MODIFIED="1726992022958"/>
-<node TEXT="Power Q&amp;A: an artificial intelligence engine that allows you to ask questions and receive responses using plain language" ID="ID_1576375371" CREATED="1726992023188" MODIFIED="1726992051310"/>
-<node TEXT="Power BI Desktop: a free, all-in-one solution that brings together all the apps described in this list into a single graphical user interface" ID="ID_530267102" CREATED="1726992051428" MODIFIED="1726992081413"/>
-<node TEXT="Power BI Services: a cloud-based user experience to collaborate and distribute products such as reports with others" ID="ID_1505431286" CREATED="1726992081579" MODIFIED="1726992105662"/>
+<node TEXT="Power Query: a data connection tool you can use to transform, combine, and enhance data across several data sources" ID="ID_593810483" CREATED="1726991821509" MODIFIED="1727003189130">
+<arrowlink DESTINATION="ID_737968361"/>
+</node>
+<node TEXT="Power Pivot: a data modeling tool" ID="ID_1074529225" CREATED="1726991858826" MODIFIED="1727003196129">
+<arrowlink DESTINATION="ID_1956991855"/>
+</node>
+<node TEXT="Power View: a data visualization tool you can use to generate interactive charts, graphs, maps and visuals" ID="ID_190818353" CREATED="1726991980132" MODIFIED="1727003202993">
+<arrowlink DESTINATION="ID_1560362300"/>
+</node>
+<node TEXT="Power Map: a visualization tool for creating 3D map renderings" ID="ID_1502769128" CREATED="1726992007883" MODIFIED="1727003310634">
+<arrowlink DESTINATION="ID_1557279292"/>
+</node>
+<node TEXT="Power Q&amp;A: an artificial intelligence engine that allows you to ask questions and receive responses using plain language" ID="ID_1576375371" CREATED="1726992023188" MODIFIED="1727003541565">
+<arrowlink DESTINATION="ID_1593407291"/>
+</node>
+<node TEXT="Power BI Desktop: a free, all-in-one solution that brings together all the apps described in this list into a single graphical user interface" ID="ID_530267102" CREATED="1726992051428" MODIFIED="1727003713582">
+<arrowlink DESTINATION="ID_840148863"/>
+</node>
+<node TEXT="Power BI Services: a cloud-based user experience to collaborate and distribute products such as reports with others" ID="ID_1505431286" CREATED="1726992081579" MODIFIED="1727003717542">
+<arrowlink DESTINATION="ID_559463044"/>
+</node>
 </node>
 <node ID="ID_326492259" CREATED="1726991668593" MODIFIED="1726991733782"><richcontent TYPE="NODE">
 
@@ -287,15 +301,114 @@
 </richcontent>
 <font BOLD="true"/>
 </node>
-<node TEXT="01.2.1 Posing Questions with Power Query" ID="ID_737968361" CREATED="1726992129284" MODIFIED="1726992140999">
+<node TEXT="01.2.1 Posing Questions with Power Query" FOLDED="true" ID="ID_737968361" CREATED="1726992129284" MODIFIED="1726992140999">
 <node TEXT="Before Power BI became its own product line, it was originally an advanced query and data manipulation add-in for Excel, circa (大约) 2010" ID="ID_233504454" CREATED="1726992151988" MODIFIED="1726992211521"/>
 <node TEXT="One of the justifications for the switch to a dedicated product was the need for a more robust query editor." ID="ID_1257353458" CREATED="1726992300180" MODIFIED="1726992325927">
 <node TEXT="With the Excel editor, it was a single data source" ID="ID_519160244" CREATED="1726992351214" MODIFIED="1726992363023"/>
-<node TEXT="With Power BI&apos;s Power Query, you can extract data from numerous data sources" ID="ID_1080535205" CREATED="1726992363197" MODIFIED="1726992383560"/>
+<node TEXT="With Power BI&apos;s Power Query, you can extract data from numerous data sources, and also capable to extract data from unstructured, semistructured, or application sources" ID="ID_1080535205" CREATED="1726992363197" MODIFIED="1726992546843"/>
+<node TEXT="Also, you can use Power Query to mine the platforms that provide API services that map to specific data fields" ID="ID_351420444" CREATED="1726992568558" MODIFIED="1726992617393"/>
+</node>
+<node TEXT="Power Query provides pretty common procedure" ID="ID_396909525" CREATED="1726992647007" MODIFIED="1726992669783">
+<node TEXT="It transforms the data you specify by adding columns, rows, data types, date and time, text fields, and appropriate operators." ID="ID_254001183" CREATED="1726992669786" MODIFIED="1726992708674"/>
+</node>
+<node TEXT="Working behind the Power Query scenes is a formula language called M" ID="ID_1496215688" CREATED="1727001991879" MODIFIED="1727002916426" LINK="https://learn.microsoft.com/en-us/powerquery-m/"/>
+</node>
+<node TEXT="01.2.2 Modeling with Power Pivot" FOLDED="true" ID="ID_1956991855" CREATED="1727003051769" MODIFIED="1727003059393">
+<node TEXT="It&apos;s Power BI&apos;s data modeling tool" ID="ID_14449610" CREATED="1727003059396" MODIFIED="1727003070563"/>
+<node TEXT="With Power Pivot, you can create models such as start schema, calculated measures, and columns and build complex diagrams." ID="ID_528881437" CREATED="1727003073450" MODIFIED="1727003102691"/>
+<node TEXT="Power Pivot leverages a programming language called the &quot;Data Analysis eXpression Language - or DAX&quot;" ID="ID_1133714294" CREATED="1727003106658" MODIFIED="1727003141962">
+<node TEXT="DAX is formula-based language used for data analysis purposes" ID="ID_1176187513" CREATED="1727003145282" MODIFIED="1727003159691"/>
+</node>
+</node>
+<node TEXT="01.2.3 Visualizing with Power View" FOLDED="true" ID="ID_1560362300" CREATED="1727003166898" MODIFIED="1727003177068">
+<node TEXT="It&apos;s Power BI&apos;s visualization engine." ID="ID_536494473" CREATED="1727003217393" MODIFIED="1727003228412"/>
+<node TEXT="Power View gives users the ability to filter data for individual variables or an entire report" ID="ID_926043953" CREATED="1727003245044" MODIFIED="1727003270069"/>
+</node>
+<node TEXT="01.2.4 Mapping Data with Power Map" FOLDED="true" ID="ID_1557279292" CREATED="1727003290435" MODIFIED="1727003300164">
+<node TEXT="A user can highlight data using geocoordinate (地理坐标) latitude (纬度) and longitudinal (经度) data as granular (精细) as an address or as global as a country" ID="ID_280829403" CREATED="1727003369798" MODIFIED="1727003487698"/>
+</node>
+<node TEXT="01.2.5 Interpreting Data with Power Q&amp;A" FOLDED="true" ID="ID_1593407291" CREATED="1727003526189" MODIFIED="1727003535663">
+<node TEXT="It&apos;s a natural language engine, providing a way to interpret text, numbers, and even speech so that users can query the data model directly" ID="ID_557547282" CREATED="1727003641520" MODIFIED="1727003673016"/>
+<node TEXT="Power Q&amp;A works directly in conjunction with Power View" ID="ID_387048525" CREATED="1727003673174" MODIFIED="1727003693128"/>
+</node>
+<node TEXT="01.2.6 Power BI Desktop" FOLDED="true" ID="ID_840148863" CREATED="1727003696454" MODIFIED="1727003702721">
+<node TEXT="Using Power BI Desktop, user can complete all business intelligence activities under a single umbrella." ID="ID_346988948" CREATED="1727003744262" MODIFIED="1727003772338"/>
+<node TEXT="Microsoft updates Power BI Desktop features monthly." ID="ID_1995368267" CREATED="1727003784111" MODIFIED="1727003797681"/>
+</node>
+<node TEXT="01.2.7 Power BI Services" FOLDED="true" ID="ID_559463044" CREATED="1727003703798" MODIFIED="1727004233306" LINK="https://app.powerbi.com">
+<node TEXT="Name changed from &quot;Power BI Website&quot;, &quot;Power BI Online&quot; to &quot;Power BI Services&quot;" ID="ID_873930204" CREATED="1727004165748" MODIFIED="1727004186718"/>
+<node TEXT="It functions as the Software as a Service companion to Power BI" ID="ID_1144320364" CREATED="1727004190204" MODIFIED="1727004223937"/>
+<node TEXT="Allows users to collaborate and share their dashboards, reports, and datasets with other users form a single location" ID="ID_896271746" CREATED="1727004240556" MODIFIED="1727004263278"/>
+</node>
+</node>
+<node TEXT="01.3 Knowing Your Power BI Terminology" FOLDED="true" ID="ID_1632999660" CREATED="1726972960590" MODIFIED="1726972974337">
+<node TEXT="01.3.1 Capacities" ID="ID_657148730" CREATED="1727004435527" MODIFIED="1727004543679">
+<node TEXT="Capacities are the sum total of resources needed in order for you to complete any project you may create in Power BI." ID="ID_1755282526" CREATED="1727004569615" MODIFIED="1727004595409"/>
+<node TEXT="Resources include the storage, processor, and memory required to host and deliver the Power BI projects" ID="ID_585893922" CREATED="1727004598559" MODIFIED="1727004620009"/>
+<node TEXT="Two types of capacity in Power BI" ID="ID_1764497206" CREATED="1727004623231" MODIFIED="1727004630490">
+<node TEXT="Shared Capacity" ID="ID_1008346862" CREATED="1727004630494" MODIFIED="1727004636234">
+<node TEXT="allows you to share resources with other Microsoft end users" ID="ID_1525892876" CREATED="1727004643839" MODIFIED="1727004661832"/>
+<node TEXT="is available for both free and paying Power BI users" ID="ID_376929950" CREATED="1727004675040" MODIFIED="1727004686690"/>
+</node>
+<node TEXT="Dedicated Capacity" ID="ID_1328790697" CREATED="1727004636383" MODIFIED="1727004641849">
+<node TEXT="fully commit resources to you alone" ID="ID_568661826" CREATED="1727004662577" MODIFIED="1727004671074"/>
+<node TEXT="requires a Power BI premium subscription" ID="ID_1563268880" CREATED="1727004687599" MODIFIED="1727004698938"/>
 </node>
 </node>
 </node>
-<node TEXT="01.3 Knowing Your Power BI Terminology" ID="ID_1632999660" CREATED="1726972960590" MODIFIED="1726972974337"/>
+<node TEXT="01.3.2 Workspaces" ID="ID_1972387102" CREATED="1727004713097" MODIFIED="1727004720754">
+<node TEXT="a means of collaborating and sharing content with colleagues" ID="ID_896561050" CREATED="1727004724003" MODIFIED="1727004739586"/>
+<node TEXT="Any workspace is created on capacities" ID="ID_1957185425" CREATED="1727004751904" MODIFIED="1727004768458"/>
+<node ID="ID_1192462869" CREATED="1727004864136" MODIFIED="1727005058663"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      A <span style="font-style: italic;">dataflow</span>&#xa0;is a collection of tables that collects the datasets imported into Power BI.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Power BI uses an Azure data lake, a way to store the extremely large volumes of data necessary for Power BI to evaluate, process, and analyze data rapidly." ID="ID_1577700315" CREATED="1727005099499" MODIFIED="1727005134589"/>
+<node ID="ID_1273156389" CREATED="1727005156683" MODIFIED="1727005172383"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      A <span style="font-style: italic;">dataset</span>&#xa0;is a single asset in your collection of data sources
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="If want to share a dataset, a Pro or Premium license is required" ID="ID_1828406154" CREATED="1727005240462" MODIFIED="1727005256710"/>
+</node>
+</node>
+<node TEXT="01.3.3 Reports" ID="ID_86162405" CREATED="1727005264628" MODIFIED="1727005269113">
+<node TEXT="Power BI Reports translates the data into one or more pages for visualizations" ID="ID_1907013078" CREATED="1727005359958" MODIFIED="1727005385231"/>
+<node TEXT="Two Report view modes" ID="ID_1801825039" CREATED="1727005443542" MODIFIED="1727005450862">
+<node TEXT="Reading View" ID="ID_1946867967" CREATED="1727005450864" MODIFIED="1727005454110"/>
+<node TEXT="Editing View" ID="ID_1654929239" CREATED="1727005454253" MODIFIED="1727005457447"/>
+</node>
+</node>
+<node TEXT="01.3.4 Dashboards" ID="ID_718126418" CREATED="1727005531838" MODIFIED="1727005536550">
+<node TEXT="The Power BI dashboard, also knows as Canvas, brings your data story to life" ID="ID_1887555385" CREATED="1727005536552" MODIFIED="1727005575160"/>
+<node TEXT="The dashboard represents the large dataset that you feel covers your topic at a glance" ID="ID_1055683382" CREATED="1727005609950" MODIFIED="1727005629081"/>
+<node TEXT="Every dashboard represents a customized view of an underlying dataset" ID="ID_881870392" CREATED="1727005689328" MODIFIED="1727005707569"/>
+<node TEXT="A minimum Power BI Pro license is required if you want to share a dashboard with a colleague" ID="ID_1904513244" CREATED="1727005731295" MODIFIED="1727005754792"/>
+</node>
+<node TEXT="01.3.5 Navigation Pane" ID="ID_1933168155" CREATED="1727005978881" MODIFIED="1727005985387">
+<node TEXT="Use to complete actions to locate and move between a workspace and the various Power BI capabilities - dashboards, reports, workbooks, datasets - whatever" ID="ID_282529493" CREATED="1727006061133" MODIFIED="1727006101037"/>
+</node>
+</node>
 <node TEXT="01.4 Business Intelligent (BI): The Definition" ID="ID_1034053194" CREATED="1726972976166" MODIFIED="1726972987006"/>
 </node>
 <node TEXT="CH02 The Who, How, and What of Power BI" ID="ID_242419806" CREATED="1726971953768" MODIFIED="1726971968418">
