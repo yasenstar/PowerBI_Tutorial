@@ -11,9 +11,9 @@ Base on "PowerBI Tutorial" book, provide step by step video demo on learning and
 
 Book structure, the online course will base on the book's chapter in sequence and adding practical demo & sharing:
 
-![book-structure-level1](img/PowerBI_Tutorial_mm-level1.png)
+<!-- ![book-structure-level1](img/PowerBI_Tutorial_mm-level1.png) -->
 
-<img src="img/PowerBI_Tutorial_mm-level1.png" alt="book-structure-level1", width="300"/>
+<img src="img/PowerBI_Tutorial_mm-level1.png" alt="book-structure-level1" width="400"/>
 
 ---
 
