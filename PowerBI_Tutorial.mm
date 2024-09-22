@@ -1,6 +1,6 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="PowerBI Tutorial&#xa;(Jack Hyman)" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1726976321802"><hook NAME="MapStyle" background="#f5f5dc" zoom="0.769">
+<node TEXT="PowerBI Tutorial&#xa;(Jack Hyman)" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1726976321802"><hook NAME="MapStyle" background="#f5f5dc">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" associatedTemplateLocation="template:/light_sepia_template.mm"/>
 
 <map_styles>
@@ -151,7 +151,7 @@
 <node TEXT="Sample Dataset" ID="ID_1921186105" CREATED="1726985334247" MODIFIED="1726985384970" LINK="https://www.wiley.com/en-kr/Microsoft+Power+BI+For+Dummies-p-9781119824893#downloadstab-section"/>
 </node>
 </node>
-<node TEXT="Part 1: Put Your BI Thinking Caps On" FOLDED="true" POSITION="bottom_or_right" ID="ID_464770271" CREATED="1726968339677" MODIFIED="1726985533973"><richcontent TYPE="NOTE">
+<node TEXT="Part 1: Put Your BI Thinking Caps On" POSITION="bottom_or_right" ID="ID_464770271" CREATED="1726968339677" MODIFIED="1726985533973"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -197,8 +197,104 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="01.1 What is Data, Really?" ID="ID_1543939288" CREATED="1726972923183" MODIFIED="1726972948184"/>
-<node TEXT="01.2 Looking Under the Power BI Hood" ID="ID_529986292" CREATED="1726972951695" MODIFIED="1726972960457"/>
+<node TEXT="01.0 Preface" FOLDED="true" ID="ID_169551961" CREATED="1726986880524" MODIFIED="1726986895509">
+<node TEXT="Dealing with data isn&apos;t always a chore (苦差事) -- data be be fund to explore as well" ID="ID_1931572221" CREATED="1726987038838" MODIFIED="1726987529368"/>
+</node>
+<node TEXT="01.1 What is Data, Really?" FOLDED="true" ID="ID_1543939288" CREATED="1726972923183" MODIFIED="1726972948184">
+<node TEXT="Data contains facts. Sometimes, the facts make sense; sometimes, they&apos;re meaningless unless you add a bit of context." ID="ID_1602930323" CREATED="1726987607731" MODIFIED="1726990676574">
+<hook URI="../../../C:/Users/v0cn037/Pictures/202409/OIP.jpeg" SIZE="1.0" NAME="ExternalObject"/>
+</node>
+<node TEXT="Information is the collective body of all the data parts, that results in the factoids making logical sense" ID="ID_88530869" CREATED="1726990759950" MODIFIED="1726990791095"/>
+<node TEXT="01.1.1 Working with Structured Data" ID="ID_392006568" CREATED="1726990799109" MODIFIED="1726991778997">
+<arrowlink DESTINATION="ID_568535843"/>
+<node TEXT="Structured data conforms to a tabular format, meaning that each column and row must maintain an interrelationship." ID="ID_1599088215" CREATED="1726990857725" MODIFIED="1726990889935"/>
+<node ID="ID_232732943" CREATED="1726990911567" MODIFIED="1726990953089"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      In Power BI, the structured data conform to a formal specification of tables with rows and columns, commonly referred to as a <span style="font-style: italic;">data schema</span>.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="The most accessible data sources for BI tools are structured" ID="ID_866323160" CREATED="1726990968959" MODIFIED="1726990980194"/>
+<node TEXT="Platforms that offer robust structured data options:" ID="ID_1222859140" CREATED="1726991000654" MODIFIED="1726991019174">
+<node TEXT="Microsoft SQL Server" ID="ID_90759778" CREATED="1726991019178" MODIFIED="1726991024376"/>
+<node TEXT="Microsoft Azure SQL Server" ID="ID_1935793894" CREATED="1726991024519" MODIFIED="1726991028744"/>
+<node TEXT="Microsoft Access" ID="ID_1336904050" CREATED="1726991028886" MODIFIED="1726991032665"/>
+<node TEXT="Azure Table Storage" ID="ID_1090728674" CREATED="1726991032838" MODIFIED="1726991043064"/>
+<node TEXT="Oracle" ID="ID_529363813" CREATED="1726991043288" MODIFIED="1726991045481"/>
+<node TEXT="IBM DB2" ID="ID_1385668376" CREATED="1726991045638" MODIFIED="1726991049449"/>
+<node TEXT="MySQL" ID="ID_479030969" CREATED="1726991049614" MODIFIED="1726991052656"/>
+<node TEXT="PostgreSQL" ID="ID_1454415359" CREATED="1726991053744" MODIFIED="1726991057889"/>
+<node TEXT="Microsoft Excel" ID="ID_805480742" CREATED="1726991058094" MODIFIED="1726991061026"/>
+<node TEXT="Google Sheets" ID="ID_1424599745" CREATED="1726991061263" MODIFIED="1726991064882"/>
+</node>
+</node>
+<node TEXT="01.1.2 Looking at Unstructured Data" ID="ID_879960" CREATED="1726991122269" MODIFIED="1726991783570">
+<arrowlink DESTINATION="ID_568535843"/>
+<node TEXT="Video, audio, photo, or text file is considered unstructured data" ID="ID_1934786726" CREATED="1726991178530" MODIFIED="1726991197846"/>
+</node>
+<node TEXT="01.1.3 Adding Semistructured Data to the Mix" ID="ID_852243374" CREATED="1726991198727" MODIFIED="1726991787106">
+<arrowlink DESTINATION="ID_568535843"/>
+<node TEXT="Semistructured data contains tags that make the data easier to organize in some form of hierarchy." ID="ID_1776867319" CREATED="1726991213182" MODIFIED="1726991259155"/>
+<node TEXT="Nonrelational data system or NoSQL databases are best associated with semistructured data." ID="ID_1740396275" CREATED="1726991264551" MODIFIED="1726991292281"/>
+<node TEXT="If the serialized language can communicate and speak the same language, a semistructured dataset has great potential" ID="ID_1775452133" CREATED="1726991329881" MODIFIED="1726991351932"/>
+</node>
+</node>
+<node TEXT="01.2 Looking Under the Power BI Hood (引擎罩, 兜帽)" ID="ID_529986292" CREATED="1726972951695" MODIFIED="1726991564419">
+<node ID="ID_568535843" CREATED="1726991582962" MODIFIED="1726991667246"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="font-weight: bold;">Power BI is a product</span>&#xa0;that brings together many smaller, cloud-based apps and services with a specific objective: to organize, collect, manage, and analyze big datasets.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Power Query: a data connection tool you can use to transform, combine, and enhance data across several data sources" ID="ID_593810483" CREATED="1726991821509" MODIFIED="1726991858669"/>
+<node TEXT="Power Pivot: a data modeling tool" ID="ID_1074529225" CREATED="1726991858826" MODIFIED="1726991868629"/>
+<node TEXT="Power View: a data visualization tool you can use to generate interactive charts, graphs, maps and visuals" ID="ID_190818353" CREATED="1726991980132" MODIFIED="1726992007734"/>
+<node TEXT="Power Map: a visualization tool for creating 3D map renderings" ID="ID_1502769128" CREATED="1726992007883" MODIFIED="1726992022958"/>
+<node TEXT="Power Q&amp;A: an artificial intelligence engine that allows you to ask questions and receive responses using plain language" ID="ID_1576375371" CREATED="1726992023188" MODIFIED="1726992051310"/>
+<node TEXT="Power BI Desktop: a free, all-in-one solution that brings together all the apps described in this list into a single graphical user interface" ID="ID_530267102" CREATED="1726992051428" MODIFIED="1726992081413"/>
+<node TEXT="Power BI Services: a cloud-based user experience to collaborate and distribute products such as reports with others" ID="ID_1505431286" CREATED="1726992081579" MODIFIED="1726992105662"/>
+</node>
+<node ID="ID_326492259" CREATED="1726991668593" MODIFIED="1726991733782"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Big Data<span style="font-weight: normal;">&#xa0;is a concept where the buisness and data analyst will evaluate extremely large datasets, which may reveal patterns and trends relating to human behaviors and interactions not easily identifiable without the use of specific tools.</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<font BOLD="true"/>
+</node>
+<node TEXT="01.2.1 Posing Questions with Power Query" ID="ID_737968361" CREATED="1726992129284" MODIFIED="1726992140999">
+<node TEXT="Before Power BI became its own product line, it was originally an advanced query and data manipulation add-in for Excel, circa (大约) 2010" ID="ID_233504454" CREATED="1726992151988" MODIFIED="1726992211521"/>
+<node TEXT="One of the justifications for the switch to a dedicated product was the need for a more robust query editor." ID="ID_1257353458" CREATED="1726992300180" MODIFIED="1726992325927">
+<node TEXT="With the Excel editor, it was a single data source" ID="ID_519160244" CREATED="1726992351214" MODIFIED="1726992363023"/>
+<node TEXT="With Power BI&apos;s Power Query, you can extract data from numerous data sources" ID="ID_1080535205" CREATED="1726992363197" MODIFIED="1726992383560"/>
+</node>
+</node>
+</node>
 <node TEXT="01.3 Knowing Your Power BI Terminology" ID="ID_1632999660" CREATED="1726972960590" MODIFIED="1726972974337"/>
 <node TEXT="01.4 Business Intelligent (BI): The Definition" ID="ID_1034053194" CREATED="1726972976166" MODIFIED="1726972987006"/>
 </node>

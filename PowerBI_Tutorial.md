@@ -57,17 +57,129 @@ Get the book --
 
 ## 0.2 Foolish Assumptions
 
-## 0.3 Icons Used in This Book
+### This book/course is for users who want to learn about the critical features across the 3 Power BI platforms: Desktop, Services and Mobile
+
+### Have already downloaded a copy of Power BI Desktop
+
+### Have at least signed up for a Power BI Free Services account, but preferably have a Power BI Pro account
+
+### Have access to the Internet
+
+### Have a meaningful dataset
+
+## 0.3 Icons Used in This Book: Tip, Remember, Technical Stuff, On the Way, Warning
 
 ## 0.4 Beyond the Book
 
+### Power BI for Dummies Cheat Sheet
+
+Another cheat sheet: https://www.dummies.com/article/technology/information-technology/data-science/general-data-science/microsoft-power-bi-for-dummies-cheat-sheet-289744/
+
+
+### Sample Dataset
+
 # Part 1: Put Your BI Thinking Caps On
+
+Learning Outcomes:
+
+- Get introduced to the types of data used in enterprise BI solutions
+- Identify the roles, responsibilities, and products produced by BI professionals
+- Discover the licensing options and core features available with Power BI
+
 
 ## CH01 A Crash Course in Data Analytics Terms: Power BI Styles
 
+Chapter Learning Outcomes:
+
+-  Figuring out the different types of data Power BI can handle
+-  Understanding your options for business intelligence tooling
+-  Familiarizing yourself with Power BI terminology
+
+
+### 01.0 Preface
+
+#### Dealing with data isn't always a chore (苦差事) -- data be be fund to explore as well
+
 ### 01.1 What is Data, Really?
 
-### 01.2 Looking Under the Power BI Hood
+#### Data contains facts. Sometimes, the facts make sense; sometimes, they're meaningless unless you add a bit of context.
+
+#### Information is the collective body of all the data parts, that results in the factoids making logical sense
+
+#### 01.1.1 Working with Structured Data
+ (see:)
+##### Structured data conforms to a tabular format, meaning that each column and row must maintain an interrelationship.
+ 
+In Power BI, the structured data conform to a formal specification of tables with rows and columns, commonly referred to as adata schema.
+
+
+##### The most accessible data sources for BI tools are structured
+
+##### Platforms that offer robust structured data options:
+
+###### Microsoft SQL Server
+
+###### Microsoft Azure SQL Server
+
+###### Microsoft Access
+
+###### Azure Table Storage
+
+###### Oracle
+
+###### IBM DB2
+
+###### MySQL
+
+###### PostgreSQL
+
+###### Microsoft Excel
+
+###### Google Sheets
+
+#### 01.1.2 Looking at Unstructured Data
+ (see:)
+##### Video, audio, photo, or text file is considered unstructured data
+
+#### 01.1.3 Adding Semistructured Data to the Mix
+ (see:)
+##### Semistructured data contains tags that make the data easier to organize in some form of hierarchy.
+
+##### Nonrelational data system or NoSQL databases are best associated with semistructured data.
+
+##### If the serialized language can communicate and speak the same language, a semistructured dataset has great potential
+
+### 01.2 Looking Under the Power BI Hood (引擎罩, 兜帽)
+ 
+Power BI is a product that brings together many smaller, cloud-based apps and services with a specific objective: to organize, collect, manage, and analyze big datasets.
+
+
+##### Power Query: a data connection tool you can use to transform, combine, and enhance data across several data sources
+
+##### Power Pivot: a data modeling tool
+
+##### Power View: a data visualization tool you can use to generate interactive charts, graphs, maps and visuals
+
+##### Power Map: a visualization tool for creating 3D map renderings
+
+##### Power Q&A: an artificial intelligence engine that allows you to ask questions and receive responses using plain language
+
+##### Power BI Desktop: a free, all-in-one solution that brings together all the apps described in this list into a single graphical user interface
+
+##### Power BI Services: a cloud-based user experience to collaborate and distribute products such as reports with others
+ 
+Big Data is a concept where the buisness and data analyst will evaluate extremely large datasets, which may reveal patterns and trends relating to human behaviors and interactions not easily identifiable without the use of specific tools.
+
+
+#### 01.2.1 Posing Questions with Power Query
+
+##### Before Power BI became its own product line, it was originally an advanced query and data manipulation add-in for Excel, circa (大约) 2010
+
+##### One of the justifications for the switch to a dedicated product was the need for a more robust query editor.
+
+###### With the Excel editor, it was a single data source
+
+###### With Power BI's Power Query, you can extract data from numerous data sources
 
 ### 01.3 Knowing Your Power BI Terminology
 
