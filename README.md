@@ -9,4 +9,10 @@ Base on "PowerBI Tutorial" book, provide step by step video demo on learning and
 
 ---
 
+Book structure, the online course will base on the book's chapter in sequence and adding practical demo & sharing:
+
+![book-structure-level1](img/PowerBI_Tutorial_mm-level1.png)
+
+---
+
 Stay tunes for the course being publishing soon...

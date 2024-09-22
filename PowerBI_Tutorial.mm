@@ -96,14 +96,107 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Part 0: Introduction" POSITION="bottom_or_right" ID="ID_1028666299" CREATED="1726972859862" MODIFIED="1726972867743">
-<node TEXT="0.1 About this Book" ID="ID_123354179" CREATED="1726972867749" MODIFIED="1726972883440"/>
-<node TEXT="0.2 Foolish Assumptions" ID="ID_88167519" CREATED="1726972883589" MODIFIED="1726972888920"/>
-<node TEXT="0.3 Icons Used in This Book" ID="ID_801200892" CREATED="1726972889071" MODIFIED="1726972897433"/>
-<node TEXT="0.4 Beyond the Book" ID="ID_773474821" CREATED="1726972897590" MODIFIED="1726972903425"/>
+<node TEXT="Part 0: Introduction" FOLDED="true" POSITION="bottom_or_right" ID="ID_1028666299" CREATED="1726972859862" MODIFIED="1726972867743">
+<node TEXT="0.0 Preface" FOLDED="true" ID="ID_49398649" CREATED="1726983484173" MODIFIED="1726983490284">
+<node TEXT="What does Business Intelligence (BI) require?" FOLDED="true" ID="ID_359010660" CREATED="1726983490291" MODIFIED="1726983508726">
+<node TEXT="Basic: querying data sources, reporting, caching data, and visualizing data" ID="ID_751155302" CREATED="1726983508728" MODIFIED="1726983558662"/>
+<node TEXT="If you had to address your organization&apos;s needs, what would they do?" ID="ID_1566343685" CREATED="1726983559621" MODIFIED="1726983580949"/>
+<node TEXT="Would taking structured, unstructured, and semistructured data and making sense of it be part of your organizational requirements?" ID="ID_272759650" CREATED="1726983581500" MODIFIED="1726983619300"/>
+<node TEXT="Perhaps developing robust business analytics outputs for executive consumption?" ID="ID_531206477" CREATED="1726983619445" MODIFIED="1726983640581"/>
+<node TEXT="Is the mandate from the leadership the delivery of complex reports, visualizations, dashboards, and key performance indicators?" ID="ID_1651849433" CREATED="1726983641942" MODIFIED="1726983668069"/>
 </node>
-<node TEXT="Part 1: Put Your BI Thinking Caps On" POSITION="bottom_or_right" ID="ID_464770271" CREATED="1726968339677" MODIFIED="1726968353183">
-<node TEXT="CH01 A Crash Course in Data Analytics Terms: Power BI Styles" ID="ID_155389368" CREATED="1726971936178" MODIFIED="1726971953563">
+<node TEXT="Brief history of Power BI" FOLDED="true" ID="ID_1026340056" CREATED="1726983689909" MODIFIED="1726983701751">
+<node TEXT="Power BI was initially conceived as part of the SQL Server Reporting Team back in 2010." ID="ID_986511184" CREATED="1726983701755" MODIFIED="1726983726991"/>
+<node TEXT="Then, Power BI made its way into the Office 365 suite in September 2013 as an advanced analytics product." ID="ID_1395781092" CREATED="1726983727524" MODIFIED="1726983754254"/>
+<node TEXT="Power BI was built around Microsoft Excel core add-ins: Power Query, Power Pivot, and Power View." ID="ID_707848371" CREATED="1726983754908" MODIFIED="1726983779334"/>
+<node TEXT="Along the way, Microsoft added a few artificial intelligence features, such as the Q&amp;A Engine, enterprise-level data connectors, and security options via the Power BI Gateway." ID="ID_1633264530" CREATED="1726983781244" MODIFIED="1726983820249"/>
+<node TEXT="The product became so popular with the enterprise business community that, in July of 2015, Power BI was separated from the Office family, becoming its own product line." ID="ID_897212313" CREATED="1726983822364" MODIFIED="1726983861166"/>
+<node TEXT="Finally, in late 2019, Power BI merged with other Microsoft products to form the Power Platform family, which consists of Power Apps (mobile), Power Automate (workflow), and Power BI (business intelligence)" ID="ID_1955965545" CREATED="1726983861365" MODIFIED="1726983909719"/>
+</node>
+</node>
+<node TEXT="0.1 About this Book" FOLDED="true" ID="ID_123354179" CREATED="1726972867749" MODIFIED="1726984533372" VGAP_QUANTITY="3 pt">
+<node TEXT="Target Audience" FOLDED="true" ID="ID_231366727" CREATED="1726984524048" MODIFIED="1726984533370">
+<node TEXT="Anyone interested in business analytics, focusing as it does on the general platform capabilities across the Power BI platform" POSITION="bottom_or_right" ID="ID_655227901" CREATED="1726984509134" MODIFIED="1726984513577"/>
+</node>
+<node TEXT="What will be learnt from here?" FOLDED="true" ID="ID_303609999" CREATED="1726984539128" MODIFIED="1726984553490">
+<node TEXT="Business Analysts who need to find a tool as the source to complete variable critical tasks in your field" ID="ID_1871028327" CREATED="1726984553493" MODIFIED="1726984560937"/>
+<node TEXT="Data Professionals who wish to understand the foundational activities across the Power BI platform into using Microsoft&apos;s business intellegence (BI) platform" ID="ID_1122689801" CREATED="1726984565176" MODIFIED="1726984567416"/>
+<node TEXT="Developers who want to find tips, tricks and techniques from Power BI (or beyond) especially DAX area" ID="ID_330581111" CREATED="1726984567568" MODIFIED="1726984573146"/>
+<node TEXT="IT Professionals that can treat this as a starting point if you want to enter the world of Microsoft enterprise business intelligence" ID="ID_1472810714" CREATED="1726984573312" MODIFIED="1726984578946"/>
+<node TEXT="Managers or Executives to get understand of the Power BI product which help your to bring guidelines for business intelligence requirements to the team" ID="ID_1034645704" CREATED="1726984583015" MODIFIED="1726984593466"/>
+</node>
+</node>
+<node TEXT="0.2 Foolish Assumptions" FOLDED="true" ID="ID_88167519" CREATED="1726972883589" MODIFIED="1726972888920">
+<node TEXT="This book/course is for users who want to learn about the critical features across the 3 Power BI platforms: Desktop, Services and Mobile" ID="ID_1608595369" CREATED="1726984824259" MODIFIED="1726984873069"/>
+<node TEXT="Have already downloaded a copy of Power BI Desktop" ID="ID_1898957601" CREATED="1726984904675" MODIFIED="1726984917245"/>
+<node TEXT="Have at least signed up for a Power BI Free Services account, but preferably have a Power BI Pro account" ID="ID_211368795" CREATED="1726984917708" MODIFIED="1726984956750"/>
+<node TEXT="Have access to the Internet" ID="ID_1499682644" CREATED="1726985025973" MODIFIED="1726985032142"/>
+<node TEXT="Have a meaningful dataset" ID="ID_795379101" CREATED="1726985032301" MODIFIED="1726985039566"/>
+</node>
+<node TEXT="0.3 Icons Used in This Book: Tip, Remember, Technical Stuff, On the Way, Warning" ID="ID_801200892" CREATED="1726972889071" MODIFIED="1726985089197"/>
+<node TEXT="0.4 Beyond the Book" FOLDED="true" ID="ID_773474821" CREATED="1726972897590" MODIFIED="1726972903425">
+<node TEXT="Power BI for Dummies Cheat Sheet" ID="ID_1475608872" CREATED="1726985172181" MODIFIED="1726985267436" LINK="https://www.dummies.com/article/technology/information-technology/data-science/general-data-science/microsoft-power-bi-for-dummies-cheat-sheet-289744/"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Another cheat sheet: https://www.dummies.com/article/technology/information-technology/data-science/general-data-science/microsoft-power-bi-for-dummies-cheat-sheet-289744/
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Sample Dataset" ID="ID_1921186105" CREATED="1726985334247" MODIFIED="1726985384970" LINK="https://www.wiley.com/en-kr/Microsoft+Power+BI+For+Dummies-p-9781119824893#downloadstab-section"/>
+</node>
+</node>
+<node TEXT="Part 1: Put Your BI Thinking Caps On" FOLDED="true" POSITION="bottom_or_right" ID="ID_464770271" CREATED="1726968339677" MODIFIED="1726985533973"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Learning Outcomes:
+    </p>
+    <ul>
+      <li>
+        Get introduced to the types of data used in enterprise BI solutions
+      </li>
+      <li>
+        Identify the roles, responsibilities, and products produced by BI professionals
+      </li>
+      <li>
+        Discover the licensing options and core features available with Power BI
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="CH01 A Crash Course in Data Analytics Terms: Power BI Styles" ID="ID_155389368" CREATED="1726971936178" MODIFIED="1726985619147"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Chapter Learning Outcomes:
+    </p>
+    <ul>
+      <li>
+        &#xa0;Figuring out the different types of data Power BI can handle
+      </li>
+      <li>
+        &#xa0;Understanding your options for business intelligence tooling
+      </li>
+      <li>
+        &#xa0;Familiarizing yourself with Power BI terminology
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
 <node TEXT="01.1 What is Data, Really?" ID="ID_1543939288" CREATED="1726972923183" MODIFIED="1726972948184"/>
 <node TEXT="01.2 Looking Under the Power BI Hood" ID="ID_529986292" CREATED="1726972951695" MODIFIED="1726972960457"/>
 <node TEXT="01.3 Knowing Your Power BI Terminology" ID="ID_1632999660" CREATED="1726972960590" MODIFIED="1726972974337"/>
@@ -128,7 +221,7 @@
 <node TEXT="04.2 Services: Far and Wide" ID="ID_1268566742" CREATED="1726974374080" MODIFIED="1726974381218"/>
 </node>
 </node>
-<node TEXT="Part 2: It&apos;s Time to Have a Data Party" POSITION="bottom_or_right" ID="ID_1320992966" CREATED="1726968353478" MODIFIED="1726968364111">
+<node TEXT="Part 2: It&apos;s Time to Have a Data Party" FOLDED="true" POSITION="bottom_or_right" ID="ID_1320992966" CREATED="1726968353478" MODIFIED="1726968364111">
 <node TEXT="CH05 Preparing Data Sources" ID="ID_1079375055" CREATED="1726971990690" MODIFIED="1726971997440">
 <node TEXT="05.1 Getting Data from the Source" ID="ID_891785231" CREATED="1726975216731" MODIFIED="1726975230349"/>
 <node TEXT="05.2 Managing Data Source Settings" ID="ID_589978483" CREATED="1726975231482" MODIFIED="1726975243868"/>
@@ -156,7 +249,7 @@
 <node TEXT="07.6 Resolving Errors During Data Import" ID="ID_1767637343" CREATED="1726976014105" MODIFIED="1726976036178"/>
 </node>
 </node>
-<node TEXT="Part 3: The Art and Science of Power BI" POSITION="bottom_or_right" ID="ID_1034627176" CREATED="1726968364302" MODIFIED="1726968377744">
+<node TEXT="Part 3: The Art and Science of Power BI" FOLDED="true" POSITION="bottom_or_right" ID="ID_1034627176" CREATED="1726968364302" MODIFIED="1726968377744">
 <node TEXT="CH08 Crafting the Data Model" ID="ID_1198574161" CREATED="1726972024230" MODIFIED="1726972036132">
 <node TEXT="08.1 An Introduction to Data Models" ID="ID_504879052" CREATED="1726976037223" MODIFIED="1726976047146"/>
 <node TEXT="08.2 Dealing with Table and Column Properties" ID="ID_839556328" CREATED="1726976047302" MODIFIED="1726976058064"/>
@@ -196,7 +289,7 @@
 <node TEXT="13.8 Setting Alerts" ID="ID_1881317741" CREATED="1726978633883" MODIFIED="1726978639948"/>
 </node>
 </node>
-<node TEXT="Part 4: Oh, No! There&apos;s a Power BI Programming Language!" POSITION="bottom_or_right" ID="ID_247116337" CREATED="1726968377925" MODIFIED="1726968391119">
+<node TEXT="Part 4: Oh, No! There&apos;s a Power BI Programming Language!" FOLDED="true" POSITION="bottom_or_right" ID="ID_247116337" CREATED="1726968377925" MODIFIED="1726968391119">
 <node TEXT="CH14 Digging Into DAX" ID="ID_1880164442" CREATED="1726972072280" MODIFIED="1726972083419">
 <node TEXT="14.1 Discovering DAX" ID="ID_982685697" CREATED="1726978641195" MODIFIED="1726978655877"/>
 <node TEXT="14.2 Dealing with Data Types" ID="ID_1248560048" CREATED="1726978656971" MODIFIED="1726978662812"/>
@@ -222,7 +315,7 @@
 <node TEXT="17.6 Defending Your Data Turf" ID="ID_571942382" CREATED="1726978808772" MODIFIED="1726978814847"/>
 </node>
 </node>
-<node TEXT="Part 5: Enhancing Your Power BI Experience" POSITION="bottom_or_right" ID="ID_650083140" CREATED="1726968391420" MODIFIED="1726968400600">
+<node TEXT="Part 5: Enhancing Your Power BI Experience" FOLDED="true" POSITION="bottom_or_right" ID="ID_650083140" CREATED="1726968391420" MODIFIED="1726968400600">
 <node TEXT="CH18 Making Your Data Shine" ID="ID_1826771819" CREATED="1726972112538" MODIFIED="1726972121050">
 <node TEXT="18.1 Establishing a Schecule" ID="ID_450786476" CREATED="1726979247470" MODIFIED="1726979260312"/>
 <node TEXT="18.2 Protecting the Data Fortress" ID="ID_1458305102" CREATED="1726979261765" MODIFIED="1726979271232"/>
@@ -240,7 +333,7 @@
 <node TEXT="19.6 Unleashing Dynamics 365 for Data Analytics" ID="ID_189219958" CREATED="1726979761824" MODIFIED="1726979773170"/>
 </node>
 </node>
-<node TEXT="Part 6: The Part of Tens" POSITION="bottom_or_right" ID="ID_965870870" CREATED="1726968400751" MODIFIED="1726968406239">
+<node TEXT="Part 6: The Part of Tens" FOLDED="true" POSITION="bottom_or_right" ID="ID_965870870" CREATED="1726968400751" MODIFIED="1726968406239">
 <node TEXT="CH20 Two Ways to Optimize DAX Using Power BI" ID="ID_151658868" CREATED="1726972133323" MODIFIED="1726972146443">
 <node TEXT="20.01 Focusing on Logic" ID="ID_235932344" CREATED="1726979774062" MODIFIED="1726979815489"/>
 <node TEXT="20.02 Formatting Your Code" ID="ID_1648064760" CREATED="1726979783303" MODIFIED="1726979818528"/>
@@ -266,7 +359,7 @@
 <node TEXT="21.10 Keeping with a Theme" ID="ID_1010575712" CREATED="1726980027256" MODIFIED="1726980033475"/>
 </node>
 </node>
-<node TEXT="Microsoft Certification" POSITION="bottom_or_right" ID="ID_477098592" CREATED="1726968488391" MODIFIED="1726968502111">
+<node TEXT="Microsoft Certification" FOLDED="true" POSITION="bottom_or_right" ID="ID_477098592" CREATED="1726968488391" MODIFIED="1726968502111">
 <node TEXT="Power BI Data Analyst Associate" ID="ID_1060033410" CREATED="1726968502114" MODIFIED="1726968513224">
 <node TEXT="Skilles" ID="ID_1507926314" CREATED="1726972386500" MODIFIED="1726972389287">
 <node TEXT="Clean, Transform and Load Data in Power BI" POSITION="bottom_or_right" ID="ID_177647991" CREATED="1726968513241" MODIFIED="1726968530105"/>
