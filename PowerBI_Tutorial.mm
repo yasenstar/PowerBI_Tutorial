@@ -1,6 +1,6 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="PowerBI Tutorial&#xa;(Jack Hyman)" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1726976321802"><hook NAME="MapStyle" background="#f5f5dc" zoom="0.77">
+<node TEXT="PowerBI Tutorial&#xa;(Jack Hyman)" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1726976321802"><hook NAME="MapStyle" background="#f5f5dc" zoom="1.001">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" associatedTemplateLocation="template:/light_sepia_template.mm"/>
 
 <map_styles>
@@ -115,10 +115,10 @@
 </node>
 </node>
 <node TEXT="0.1 About this Book" FOLDED="true" ID="ID_123354179" CREATED="1726972867749" MODIFIED="1726984533372" VGAP_QUANTITY="3 pt">
-<node TEXT="Target Audience" FOLDED="true" ID="ID_231366727" CREATED="1726984524048" MODIFIED="1726984533370">
+<node TEXT="Target Audience" ID="ID_231366727" CREATED="1726984524048" MODIFIED="1726984533370">
 <node TEXT="Anyone interested in business analytics, focusing as it does on the general platform capabilities across the Power BI platform" POSITION="bottom_or_right" ID="ID_655227901" CREATED="1726984509134" MODIFIED="1726984513577"/>
 </node>
-<node TEXT="What will be learnt from here?" FOLDED="true" ID="ID_303609999" CREATED="1726984539128" MODIFIED="1726984553490">
+<node TEXT="What will be learnt from here?" ID="ID_303609999" CREATED="1726984539128" MODIFIED="1726984553490">
 <node TEXT="Business Analysts who need to find a tool as the source to complete variable critical tasks in your field" ID="ID_1871028327" CREATED="1726984553493" MODIFIED="1726984560937"/>
 <node TEXT="Data Professionals who wish to understand the foundational activities across the Power BI platform into using Microsoft&apos;s business intellegence (BI) platform" ID="ID_1122689801" CREATED="1726984565176" MODIFIED="1726984567416"/>
 <node TEXT="Developers who want to find tips, tricks and techniques from Power BI (or beyond) especially DAX area" ID="ID_330581111" CREATED="1726984567568" MODIFIED="1726984573146"/>
@@ -126,7 +126,7 @@
 <node TEXT="Managers or Executives to get understand of the Power BI product which help your to bring guidelines for business intelligence requirements to the team" ID="ID_1034645704" CREATED="1726984583015" MODIFIED="1726984593466"/>
 </node>
 </node>
-<node TEXT="0.2 Foolish Assumptions" FOLDED="true" ID="ID_88167519" CREATED="1726972883589" MODIFIED="1726972888920">
+<node TEXT="0.2 Foolish Assumptions" ID="ID_88167519" CREATED="1726972883589" MODIFIED="1726972888920">
 <node TEXT="This book/course is for users who want to learn about the critical features across the 3 Power BI platforms: Desktop, Services and Mobile" ID="ID_1608595369" CREATED="1726984824259" MODIFIED="1726984873069"/>
 <node TEXT="Have already downloaded a copy of Power BI Desktop" ID="ID_1898957601" CREATED="1726984904675" MODIFIED="1726984917245"/>
 <node TEXT="Have at least signed up for a Power BI Free Services account, but preferably have a Power BI Pro account" ID="ID_211368795" CREATED="1726984917708" MODIFIED="1726984956750"/>
@@ -134,7 +134,7 @@
 <node TEXT="Have a meaningful dataset" ID="ID_795379101" CREATED="1726985032301" MODIFIED="1726985039566"/>
 </node>
 <node TEXT="0.3 Icons Used in This Book: Tip, Remember, Technical Stuff, On the Way, Warning" ID="ID_801200892" CREATED="1726972889071" MODIFIED="1726985089197"/>
-<node TEXT="0.4 Beyond the Book" FOLDED="true" ID="ID_773474821" CREATED="1726972897590" MODIFIED="1726972903425">
+<node TEXT="0.4 Beyond the Book" ID="ID_773474821" CREATED="1726972897590" MODIFIED="1726972903425">
 <node TEXT="Power BI for Dummies Cheat Sheet" ID="ID_1475608872" CREATED="1726985172181" MODIFIED="1726985267436" LINK="https://www.dummies.com/article/technology/information-technology/data-science/general-data-science/microsoft-power-bi-for-dummies-cheat-sheet-289744/"><richcontent TYPE="NOTE">
 <html>
   <head>
