@@ -2,6 +2,15 @@
 
 Base on "PowerBI Tutorial" book, provide step by step video demo on learning and mastering Power BI tool
 
+[![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCTshmTJGpJunOz23vCEhzWg)](https://www.youtube.com/@yasenzhao)
+[![Static Badge](https://img.shields.io/badge/My_LinkedIn--XiaoqiZhao-blue)](https://www.linkedin.com/in/xiaoqi-zhao)
+
+![GitHub Repo stars](https://img.shields.io/github/stars/yasenstar/PowerBI_Tutorial)
+![GitHub forks](https://img.shields.io/github/forks/yasenstar/PowerBI_Tutorial)
+![GitHub License](https://img.shields.io/github/license/yasenstar/PowerBI_Tutorial)
+![GitHub language count](https://img.shields.io/github/languages/count/yasenstar/PowerBI_Tutorial)
+[![pages-build-deployment](https://github.com/yasenstar/PowerBI_Tutorial/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/yasenstar/PowerBI_Tutorial/actions/workflows/pages/pages-build-deployment)
+
 ---
 
 | ![book cover](img/book_cover.png) | Get the book: [Amazon](https://www.amazon.com/Microsoft-Power-Dummies-Jack-Hyman/dp/1119824877), [Wiley](https://www.wiley.com/en-us/Microsoft+Power+BI+For+Dummies-p-9781119824893) |
