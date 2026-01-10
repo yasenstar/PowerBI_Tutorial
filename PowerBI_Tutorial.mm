@@ -1,7 +1,7 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="PowerBI Tutorial&#xa;(Jack Hyman)" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1726976321802"><hook NAME="MapStyle" background="#f5f5dcff" zoom="0.9090909">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/light_sepia_template.mm" fit_to_viewport="false" show_icons="BESIDE_NODES" show_tags="UNDER_NODES"/>
+<node TEXT="PowerBI Tutorial&#xa;(Jack Hyman)" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1726976321802"><hook NAME="MapStyle" background="#f5f5dcff" zoom="0.75131476">
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_sepia_template.mm" fit_to_viewport="false" show_icons="BESIDE_NODES"/>
     <tags category_separator="::"/>
 
 <map_styles>
@@ -9,7 +9,7 @@
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_1558627382" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#2c2b29" BACKGROUND_COLOR="#eedfcc" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="true" BORDER_COLOR="#f0f0f0" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID" VGAP_QUANTITY="3 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1558627382" STARTINCLINATION="81.75 pt;-9.75 pt;" ENDINCLINATION="81.75 pt;19.5 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1558627382" STARTINCLINATION="81.75 pt;-9 pt;" ENDINCLINATION="81.75 pt;19.5 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="9" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="bezier" COLOR="#2e3440" WIDTH="3" DASH="SOLID"/>
 <richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
@@ -153,7 +153,7 @@
 <node TEXT="Sample Dataset" ID="ID_1921186105" CREATED="1726985334247" MODIFIED="1726985384970" LINK="https://www.wiley.com/en-kr/Microsoft+Power+BI+For+Dummies-p-9781119824893#downloadstab-section"/>
 </node>
 </node>
-<node TEXT="Part 1: Put Your BI Thinking Caps On" FOLDED="true" POSITION="bottom_or_right" ID="ID_464770271" CREATED="1726968339677" MODIFIED="1726985533973"><richcontent TYPE="NOTE">
+<node TEXT="Part 1: Put Your BI Thinking Caps On" POSITION="bottom_or_right" ID="ID_464770271" CREATED="1726968339677" MODIFIED="1726985533973"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -197,7 +197,7 @@
     </ul>
   </body>
 </html></richcontent>
-<node TEXT="01.0 Preface" FOLDED="true" ID="ID_169551961" CREATED="1726986880524" MODIFIED="1726986895509">
+<node TEXT="01.0 Preface" ID="ID_169551961" CREATED="1726986880524" MODIFIED="1726986895509">
 <node TEXT="Dealing with data isn&apos;t always a chore (苦差事) -- data be be fund to explore as well" ID="ID_1931572221" CREATED="1726987038838" MODIFIED="1726987529368"/>
 </node>
 <node TEXT="01.1 What is Data, Really?" FOLDED="true" ID="ID_1543939288" CREATED="1726972923183" MODIFIED="1726972948184">
@@ -234,11 +234,11 @@
 <node TEXT="Google Sheets" ID="ID_1424599745" CREATED="1726991061263" MODIFIED="1726991064882"/>
 </node>
 </node>
-<node TEXT="01.1.2 Looking at Unstructured Data" FOLDED="true" ID="ID_879960" CREATED="1726991122269" MODIFIED="1726991783570">
+<node TEXT="01.1.2 Looking at Unstructured Data" ID="ID_879960" CREATED="1726991122269" MODIFIED="1726991783570">
 <arrowlink DESTINATION="ID_568535843"/>
 <node TEXT="Video, audio, photo, or text file is considered unstructured data" ID="ID_1934786726" CREATED="1726991178530" MODIFIED="1726991197846"/>
 </node>
-<node TEXT="01.1.3 Adding Semistructured Data to the Mix" FOLDED="true" ID="ID_852243374" CREATED="1726991198727" MODIFIED="1726991787106">
+<node TEXT="01.1.3 Adding Semistructured Data to the Mix" ID="ID_852243374" CREATED="1726991198727" MODIFIED="1726991787106">
 <arrowlink DESTINATION="ID_568535843"/>
 <node TEXT="Semistructured data contains tags that make the data easier to organize in some form of hierarchy." ID="ID_1776867319" CREATED="1726991213182" MODIFIED="1726991259155"/>
 <node TEXT="Nonrelational data system or NoSQL databases are best associated with semistructured data." ID="ID_1740396275" CREATED="1726991264551" MODIFIED="1726991292281"/>
@@ -330,14 +330,14 @@
 <node TEXT="Using Power BI Desktop, user can complete all business intelligence activities under a single umbrella." ID="ID_346988948" CREATED="1727003744262" MODIFIED="1727003772338"/>
 <node TEXT="Microsoft updates Power BI Desktop features monthly." ID="ID_1995368267" CREATED="1727003784111" MODIFIED="1727003797681"/>
 </node>
-<node TEXT="01.2.7 Power BI Services" FOLDED="true" ID="ID_559463044" CREATED="1727003703798" MODIFIED="1727004233306" LINK="https://app.powerbi.com">
+<node TEXT="01.2.7 Power BI Services" ID="ID_559463044" CREATED="1727003703798" MODIFIED="1727004233306" LINK="https://app.powerbi.com">
 <node TEXT="Name changed from &quot;Power BI Website&quot;, &quot;Power BI Online&quot; to &quot;Power BI Services&quot;" ID="ID_873930204" CREATED="1727004165748" MODIFIED="1727004186718"/>
 <node TEXT="It functions as the Software as a Service companion to Power BI" ID="ID_1144320364" CREATED="1727004190204" MODIFIED="1727004223937"/>
 <node TEXT="Allows users to collaborate and share their dashboards, reports, and datasets with other users form a single location" ID="ID_896271746" CREATED="1727004240556" MODIFIED="1727004263278"/>
 </node>
 </node>
 <node TEXT="01.3 Knowing Your Power BI Terminology" FOLDED="true" ID="ID_1632999660" CREATED="1726972960590" MODIFIED="1726972974337">
-<node TEXT="01.3.1 Capacities" ID="ID_657148730" CREATED="1727004435527" MODIFIED="1727004543679">
+<node TEXT="01.3.1 Capacities" FOLDED="true" ID="ID_657148730" CREATED="1727004435527" MODIFIED="1727004543679">
 <node TEXT="Capacities are the sum total of resources needed in order for you to complete any project you may create in Power BI." ID="ID_1755282526" CREATED="1727004569615" MODIFIED="1727004595409"/>
 <node TEXT="Resources include the storage, processor, and memory required to host and deliver the Power BI projects" ID="ID_585893922" CREATED="1727004598559" MODIFIED="1727004620009"/>
 <node TEXT="Two types of capacity in Power BI" ID="ID_1764497206" CREATED="1727004623231" MODIFIED="1727004630490">
@@ -413,7 +413,7 @@
 </node>
 </node>
 </node>
-<node TEXT="CH02 The Who, How, and What of Power BI" FOLDED="true" ID="ID_242419806" CREATED="1726971953768" MODIFIED="1726971968418">
+<node TEXT="CH02 The Who, How, and What of Power BI" ID="ID_242419806" CREATED="1726971953768" MODIFIED="1726971968418">
 <node TEXT="02.1 Highlighting the Who of Power BI" ID="ID_1806464625" CREATED="1726973709478" MODIFIED="1726973793614"/>
 <node TEXT="02.2 Understanding How Data Comes to Life" ID="ID_79842580" CREATED="1726973793764" MODIFIED="1726973804478"/>
 <node TEXT="02.3 Examining the Various Types of Data Analytics" ID="ID_402362374" CREATED="1726973805892" MODIFIED="1726973823102"/>
@@ -421,7 +421,11 @@
 </node>
 <node TEXT="CH03 Oh, the Choices: Power BI Versions" FOLDED="true" ID="ID_1643354182" CREATED="1726971968576" MODIFIED="1726971981104">
 <node TEXT="03.1 Why Power BI versus Excel?" ID="ID_1122479615" CREATED="1726974291000" MODIFIED="1726974309962"/>
-<node TEXT="03.2 Power BI Products in a Nutshell" ID="ID_1024056739" CREATED="1726974310118" MODIFIED="1726974320672"/>
+<node TEXT="03.2 Power BI Products in a Nutshell" FOLDED="true" ID="ID_1024056739" CREATED="1726974310118" MODIFIED="1726974320672">
+<node TEXT="Power BI License Options" ID="ID_455541113" CREATED="1768046323934" MODIFIED="1768046340923"/>
+<node TEXT="Power BI Desktop vs. Services" ID="ID_1515988255" CREATED="1768046350156" MODIFIED="1768046362885"/>
+<node TEXT="Stacking Power BI Desktop against Power BI Free" ID="ID_1723243715" CREATED="1768046370194" MODIFIED="1768046385667"/>
+</node>
 <node TEXT="03.3 Examining the Details of the Licensing Options" ID="ID_721163114" CREATED="1726974320823" MODIFIED="1726974332455"/>
 <node TEXT="03.4 On the Road with Power BI Mobile" ID="ID_301909764" CREATED="1726974332896" MODIFIED="1726974346824"/>
 <node TEXT="03.5 Working with Power BI Report Server" ID="ID_1240097238" CREATED="1726974346975" MODIFIED="1726974356681"/>

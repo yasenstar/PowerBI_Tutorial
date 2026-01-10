@@ -46,7 +46,7 @@ Quick snapshot of data analytics work:
 | Diagnostic | Why did it happen? | Root cause analysis, drill paths | Customer churn analysis, campaign ROI |
 | Predictive | What's likely to happen? | Forcasting, machine learning | Inventory planning, revenue forecasts |
 | Prescriptive | What should we do next? | Optimization models, decision logic | Budget allocation, resource planning |
-| Cognitive Analytics | | |
+| Cognitive Analytics | What is hidden in this data? | NLP, ML & DL, Computer Vision (CV), Sentiment Analysis, KG, Speech Recognition | Diagnostic Support, Fraud Detection, Intelligent Chatbots |
 
 Source reference:
 
