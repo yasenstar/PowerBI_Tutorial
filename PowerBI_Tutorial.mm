@@ -1,20 +1,24 @@
-<map version="freeplane 1.11.5">
+<map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="PowerBI Tutorial&#xa;(Jack Hyman)" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1726976321802"><hook NAME="MapStyle" background="#f5f5dc" zoom="1.001">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" associatedTemplateLocation="template:/light_sepia_template.mm"/>
+<node TEXT="PowerBI Tutorial&#xa;(Jack Hyman)" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1726976321802"><hook NAME="MapStyle" background="#f5f5dcff">
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/light_sepia_template.mm" fit_to_viewport="false" show_icons="BESIDE_NODES" show_tags="UNDER_NODES"/>
+    <tags category_separator="::"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_1558627382" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#2c2b29" BACKGROUND_COLOR="#eedfcc" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="true" BORDER_COLOR="#f0f0f0" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID" VGAP_QUANTITY="3 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1558627382" STARTINCLINATION="81.6 pt;-10.8 pt;" ENDINCLINATION="81.6 pt;19.8 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1558627382" STARTINCLINATION="81.75 pt;-9.75 pt;" ENDINCLINATION="81.75 pt;19.5 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="9" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="bezier" COLOR="#2e3440" WIDTH="3" DASH="SOLID"/>
 <richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="plain/auto"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details" COLOR="#ffffff" BACKGROUND_COLOR="#2e3440">
+<font SIZE="10"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.tags">
 <font SIZE="10"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.attributes">
@@ -94,9 +98,8 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
-<node TEXT="Part 0: Introduction" POSITION="bottom_or_right" ID="ID_1028666299" CREATED="1726972859862" MODIFIED="1726972867743">
+</html></richcontent>
+<node TEXT="Part 0: Introduction" FOLDED="true" POSITION="bottom_or_right" ID="ID_1028666299" CREATED="1726972859862" MODIFIED="1726972867743">
 <node TEXT="0.0 Preface" FOLDED="true" ID="ID_49398649" CREATED="1726983484173" MODIFIED="1726983490284">
 <node TEXT="What does Business Intelligence (BI) require?" FOLDED="true" ID="ID_359010660" CREATED="1726983490291" MODIFIED="1726983508726">
 <node TEXT="Basic: querying data sources, reporting, caching data, and visualizing data" ID="ID_751155302" CREATED="1726983508728" MODIFIED="1726983558662"/>
@@ -145,13 +148,12 @@
       Another cheat sheet: https://www.dummies.com/article/technology/information-technology/data-science/general-data-science/microsoft-power-bi-for-dummies-cheat-sheet-289744/
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="Sample Dataset" ID="ID_1921186105" CREATED="1726985334247" MODIFIED="1726985384970" LINK="https://www.wiley.com/en-kr/Microsoft+Power+BI+For+Dummies-p-9781119824893#downloadstab-section"/>
 </node>
 </node>
-<node TEXT="Part 1: Put Your BI Thinking Caps On" FOLDED="true" POSITION="bottom_or_right" ID="ID_464770271" CREATED="1726968339677" MODIFIED="1726985533973"><richcontent TYPE="NOTE">
+<node TEXT="Part 1: Put Your BI Thinking Caps On" POSITION="bottom_or_right" ID="ID_464770271" CREATED="1726968339677" MODIFIED="1726985533973"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -172,9 +174,8 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
-<node TEXT="CH01 A Crash Course in Data Analytics Terms: Power BI Styles" ID="ID_155389368" CREATED="1726971936178" MODIFIED="1726985619147"><richcontent TYPE="NOTE">
+</html></richcontent>
+<node TEXT="CH01 A Crash Course in Data Analytics Terms: Power BI Styles" FOLDED="true" ID="ID_155389368" CREATED="1726971936178" MODIFIED="1726985619147"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -195,17 +196,14 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="01.0 Preface" FOLDED="true" ID="ID_169551961" CREATED="1726986880524" MODIFIED="1726986895509">
 <node TEXT="Dealing with data isn&apos;t always a chore (苦差事) -- data be be fund to explore as well" ID="ID_1931572221" CREATED="1726987038838" MODIFIED="1726987529368"/>
 </node>
 <node TEXT="01.1 What is Data, Really?" FOLDED="true" ID="ID_1543939288" CREATED="1726972923183" MODIFIED="1726972948184">
-<node TEXT="Data contains facts. Sometimes, the facts make sense; sometimes, they&apos;re meaningless unless you add a bit of context." ID="ID_1602930323" CREATED="1726987607731" MODIFIED="1726990676574">
-<hook URI="../../../C:/Users/v0cn037/Pictures/202409/OIP.jpeg" SIZE="1.0" NAME="ExternalObject"/>
-</node>
+<node TEXT="Data contains facts. Sometimes, the facts make sense; sometimes, they&apos;re meaningless unless you add a bit of context." ID="ID_1602930323" CREATED="1726987607731" MODIFIED="1768009686190"/>
 <node TEXT="Information is the collective body of all the data parts, that results in the factoids making logical sense" ID="ID_88530869" CREATED="1726990759950" MODIFIED="1726990791095"/>
-<node TEXT="01.1.1 Working with Structured Data" ID="ID_392006568" CREATED="1726990799109" MODIFIED="1726991778997">
+<node TEXT="01.1.1 Working with Structured Data" FOLDED="true" ID="ID_392006568" CREATED="1726990799109" MODIFIED="1726991778997">
 <arrowlink DESTINATION="ID_568535843"/>
 <node TEXT="Structured data conforms to a tabular format, meaning that each column and row must maintain an interrelationship." ID="ID_1599088215" CREATED="1726990857725" MODIFIED="1726990889935"/>
 <node ID="ID_232732943" CREATED="1726990911567" MODIFIED="1726990953089"><richcontent TYPE="NODE">
@@ -220,7 +218,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="The most accessible data sources for BI tools are structured" ID="ID_866323160" CREATED="1726990968959" MODIFIED="1726990980194"/>
@@ -237,11 +234,11 @@
 <node TEXT="Google Sheets" ID="ID_1424599745" CREATED="1726991061263" MODIFIED="1726991064882"/>
 </node>
 </node>
-<node TEXT="01.1.2 Looking at Unstructured Data" ID="ID_879960" CREATED="1726991122269" MODIFIED="1726991783570">
+<node TEXT="01.1.2 Looking at Unstructured Data" FOLDED="true" ID="ID_879960" CREATED="1726991122269" MODIFIED="1726991783570">
 <arrowlink DESTINATION="ID_568535843"/>
 <node TEXT="Video, audio, photo, or text file is considered unstructured data" ID="ID_1934786726" CREATED="1726991178530" MODIFIED="1726991197846"/>
 </node>
-<node TEXT="01.1.3 Adding Semistructured Data to the Mix" ID="ID_852243374" CREATED="1726991198727" MODIFIED="1726991787106">
+<node TEXT="01.1.3 Adding Semistructured Data to the Mix" FOLDED="true" ID="ID_852243374" CREATED="1726991198727" MODIFIED="1726991787106">
 <arrowlink DESTINATION="ID_568535843"/>
 <node TEXT="Semistructured data contains tags that make the data easier to organize in some form of hierarchy." ID="ID_1776867319" CREATED="1726991213182" MODIFIED="1726991259155"/>
 <node TEXT="Nonrelational data system or NoSQL databases are best associated with semistructured data." ID="ID_1740396275" CREATED="1726991264551" MODIFIED="1726991292281"/>
@@ -261,7 +258,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Power Query: a data connection tool you can use to transform, combine, and enhance data across several data sources" ID="ID_593810483" CREATED="1726991821509" MODIFIED="1727003189130">
 <arrowlink DESTINATION="ID_737968361"/>
@@ -297,7 +293,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <font BOLD="true"/>
 </node>
@@ -371,7 +366,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Power BI uses an Azure data lake, a way to store the extremely large volumes of data necessary for Power BI to evaluate, process, and analyze data rapidly." ID="ID_1577700315" CREATED="1727005099499" MODIFIED="1727005134589"/>
@@ -387,7 +381,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="If want to share a dataset, a Pro or Premium license is required" ID="ID_1828406154" CREATED="1727005240462" MODIFIED="1727005256710"/>
 </node>
@@ -409,7 +402,7 @@
 <node TEXT="Use to complete actions to locate and move between a workspace and the various Power BI capabilities - dashboards, reports, workbooks, datasets - whatever" ID="ID_282529493" CREATED="1727006061133" MODIFIED="1727006101037"/>
 </node>
 </node>
-<node TEXT="01.4 Business Intelligent (BI): The Definition" FOLDED="true" ID="ID_1034053194" CREATED="1726972976166" MODIFIED="1727006331682" LINK="https://en.wikipedia.org/wiki/Business_intelligence">
+<node TEXT="01.4 Business Intelligent (BI): The Definition" ID="ID_1034053194" CREATED="1726972976166" MODIFIED="1727006331682" LINK="https://en.wikipedia.org/wiki/Business_intelligence">
 <node TEXT="Business Intelligence is what businesses use in order to be in a position where they can analyze current as well as historical data." ID="ID_641840480" CREATED="1727006404547" MODIFIED="1727006446061"/>
 <node TEXT="Throughout the process of data analysis, the hope is that an organization will be able to uncover the insights needed to make the right decisions for the business&apos; future." ID="ID_929090603" CREATED="1727006593101" MODIFIED="1727006626366"/>
 <node TEXT="BI tools can help transform raw data into readily accessible data:" FOLDED="true" ID="ID_887070685" CREATED="1727006822784" MODIFIED="1727006854072">
@@ -426,7 +419,7 @@
 <node TEXT="02.3 Examining the Various Types of Data Analytics" ID="ID_402362374" CREATED="1726973805892" MODIFIED="1726973823102"/>
 <node TEXT="02.4 Taking a Look at the Big Picture" ID="ID_21300501" CREATED="1726973823231" MODIFIED="1726973833494"/>
 </node>
-<node TEXT="CH03 Oh, the Choices: Power BI Versions" ID="ID_1643354182" CREATED="1726971968576" MODIFIED="1726971981104">
+<node TEXT="CH03 Oh, the Choices: Power BI Versions" FOLDED="true" ID="ID_1643354182" CREATED="1726971968576" MODIFIED="1726971981104">
 <node TEXT="03.1 Why Power BI versus Excel?" ID="ID_1122479615" CREATED="1726974291000" MODIFIED="1726974309962"/>
 <node TEXT="03.2 Power BI Products in a Nutshell" ID="ID_1024056739" CREATED="1726974310118" MODIFIED="1726974320672"/>
 <node TEXT="03.3 Examining the Details of the Licensing Options" ID="ID_721163114" CREATED="1726974320823" MODIFIED="1726974332455"/>
@@ -434,7 +427,7 @@
 <node TEXT="03.5 Working with Power BI Report Server" ID="ID_1240097238" CREATED="1726974346975" MODIFIED="1726974356681"/>
 <node TEXT="03.6 Linking Power BI and Azure" ID="ID_1731196149" CREATED="1726974356841" MODIFIED="1726974362513"/>
 </node>
-<node TEXT="CH04 Power BI: The Highlights" ID="ID_971195150" CREATED="1726971981263" MODIFIED="1726971989520">
+<node TEXT="CH04 Power BI: The Highlights" FOLDED="true" ID="ID_971195150" CREATED="1726971981263" MODIFIED="1726971989520">
 <node TEXT="04.1 Power BI Desktop: A Top-Down View" ID="ID_1447881033" CREATED="1726974363529" MODIFIED="1726974373897"/>
 <node TEXT="04.2 Services: Far and Wide" ID="ID_1268566742" CREATED="1726974374080" MODIFIED="1726974381218"/>
 </node>

@@ -155,19 +155,19 @@ Power BI is a product that brings together many smaller, cloud-based apps and se
 
 
 ##### Power Query: a data connection tool you can use to transform, combine, and enhance data across several data sources
-
+ (see:01.2.1 Posing Questions with Power Query)
 ##### Power Pivot: a data modeling tool
-
+ (see:01.2.2 Modeling with Power Pivot)
 ##### Power View: a data visualization tool you can use to generate interactive charts, graphs, maps and visuals
-
+ (see:01.2.3 Visualizing with Power View)
 ##### Power Map: a visualization tool for creating 3D map renderings
-
+ (see:01.2.4 Mapping Data with Power Map)
 ##### Power Q&A: an artificial intelligence engine that allows you to ask questions and receive responses using plain language
-
+ (see:01.2.5 Interpreting Data with Power Q&A)
 ##### Power BI Desktop: a free, all-in-one solution that brings together all the apps described in this list into a single graphical user interface
-
+ (see:01.2.6 Power BI Desktop)
 ##### Power BI Services: a cloud-based user experience to collaborate and distribute products such as reports with others
- 
+ (see:01.2.7 Power BI Services) 
 Big Data is a concept where the buisness and data analyst will evaluate extremely large datasets, which may reveal patterns and trends relating to human behaviors and interactions not easily identifiable without the use of specific tools.
 
 
@@ -179,11 +179,133 @@ Big Data is a concept where the buisness and data analyst will evaluate extremel
 
 ###### With the Excel editor, it was a single data source
 
-###### With Power BI's Power Query, you can extract data from numerous data sources
+###### With Power BI's Power Query, you can extract data from numerous data sources, and also capable to extract data from unstructured, semistructured, or application sources
+
+###### Also, you can use Power Query to mine the platforms that provide API services that map to specific data fields
+
+##### Power Query provides pretty common procedure
+
+###### It transforms the data you specify by adding columns, rows, data types, date and time, text fields, and appropriate operators.
+
+##### Working behind the Power Query scenes is a formula language called M
+
+#### 01.2.2 Modeling with Power Pivot
+
+##### It's Power BI's data modeling tool
+
+##### With Power Pivot, you can create models such as start schema, calculated measures, and columns and build complex diagrams.
+
+##### Power Pivot leverages a programming language called the "Data Analysis eXpression Language - or DAX"
+
+###### DAX is formula-based language used for data analysis purposes
+
+#### 01.2.3 Visualizing with Power View
+
+##### It's Power BI's visualization engine.
+
+##### Power View gives users the ability to filter data for individual variables or an entire report
+
+#### 01.2.4 Mapping Data with Power Map
+
+##### A user can highlight data using geocoordinate (地理坐标) latitude (纬度) and longitudinal (经度) data as granular (精细) as an address or as global as a country
+
+#### 01.2.5 Interpreting Data with Power Q&A
+
+##### It's a natural language engine, providing a way to interpret text, numbers, and even speech so that users can query the data model directly
+
+##### Power Q&A works directly in conjunction with Power View
+
+#### 01.2.6 Power BI Desktop
+
+##### Using Power BI Desktop, user can complete all business intelligence activities under a single umbrella.
+
+##### Microsoft updates Power BI Desktop features monthly.
+
+#### 01.2.7 Power BI Services
+
+##### Name changed from "Power BI Website", "Power BI Online" to "Power BI Services"
+
+##### It functions as the Software as a Service companion to Power BI
+
+##### Allows users to collaborate and share their dashboards, reports, and datasets with other users form a single location
 
 ### 01.3 Knowing Your Power BI Terminology
 
+#### 01.3.1 Capacities
+
+##### Capacities are the sum total of resources needed in order for you to complete any project you may create in Power BI.
+
+##### Resources include the storage, processor, and memory required to host and deliver the Power BI projects
+
+##### Two types of capacity in Power BI
+
+###### Shared Capacity
+
+* allows you to share resources with other Microsoft end users
+
+* is available for both free and paying Power BI users
+
+###### Dedicated Capacity
+
+* fully commit resources to you alone
+
+* requires a Power BI premium subscription
+
+#### 01.3.2 Workspaces
+
+##### a means of collaborating and sharing content with colleagues
+
+##### Any workspace is created on capacities
+ 
+Adataflow is a collection of tables that collects the datasets imported into Power BI.
+
+
+##### Power BI uses an Azure data lake, a way to store the extremely large volumes of data necessary for Power BI to evaluate, process, and analyze data rapidly.
+ 
+Adataset is a single asset in your collection of data sources
+
+
+###### If want to share a dataset, a Pro or Premium license is required
+
+#### 01.3.3 Reports
+
+##### Power BI Reports translates the data into one or more pages for visualizations
+
+##### Two Report view modes
+
+###### Reading View
+
+###### Editing View
+
+#### 01.3.4 Dashboards
+
+##### The Power BI dashboard, also knows as Canvas, brings your data story to life
+
+##### The dashboard represents the large dataset that you feel covers your topic at a glance
+
+##### Every dashboard represents a customized view of an underlying dataset
+
+##### A minimum Power BI Pro license is required if you want to share a dashboard with a colleague
+
+#### 01.3.5 Navigation Pane
+
+##### Use to complete actions to locate and move between a workspace and the various Power BI capabilities - dashboards, reports, workbooks, datasets - whatever
+
 ### 01.4 Business Intelligent (BI): The Definition
+
+#### Business Intelligence is what businesses use in order to be in a position where they can analyze current as well as historical data.
+
+#### Throughout the process of data analysis, the hope is that an organization will be able to uncover the insights needed to make the right decisions for the business' future.
+
+#### BI tools can help transform raw data into readily accessible data:
+
+##### 1. Collect and transform your data
+
+##### 2. Analyze data to discover trends
+
+##### 3. Use visualization options in order to provide data clarity
+
+##### 4. Taking action and making decisions
 
 ## CH02 The Who, How, and What of Power BI
 
