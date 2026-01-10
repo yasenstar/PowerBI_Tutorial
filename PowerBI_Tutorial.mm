@@ -1,6 +1,6 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="PowerBI Tutorial&#xa;(Jack Hyman)" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1726976321802"><hook NAME="MapStyle" background="#f5f5dcff">
+<node TEXT="PowerBI Tutorial&#xa;(Jack Hyman)" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1726976321802"><hook NAME="MapStyle" background="#f5f5dcff" zoom="0.9090909">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/light_sepia_template.mm" fit_to_viewport="false" show_icons="BESIDE_NODES" show_tags="UNDER_NODES"/>
     <tags category_separator="::"/>
 
@@ -153,7 +153,7 @@
 <node TEXT="Sample Dataset" ID="ID_1921186105" CREATED="1726985334247" MODIFIED="1726985384970" LINK="https://www.wiley.com/en-kr/Microsoft+Power+BI+For+Dummies-p-9781119824893#downloadstab-section"/>
 </node>
 </node>
-<node TEXT="Part 1: Put Your BI Thinking Caps On" POSITION="bottom_or_right" ID="ID_464770271" CREATED="1726968339677" MODIFIED="1726985533973"><richcontent TYPE="NOTE">
+<node TEXT="Part 1: Put Your BI Thinking Caps On" FOLDED="true" POSITION="bottom_or_right" ID="ID_464770271" CREATED="1726968339677" MODIFIED="1726985533973"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -413,7 +413,7 @@
 </node>
 </node>
 </node>
-<node TEXT="CH02 The Who, How, and What of Power BI" ID="ID_242419806" CREATED="1726971953768" MODIFIED="1726971968418">
+<node TEXT="CH02 The Who, How, and What of Power BI" FOLDED="true" ID="ID_242419806" CREATED="1726971953768" MODIFIED="1726971968418">
 <node TEXT="02.1 Highlighting the Who of Power BI" ID="ID_1806464625" CREATED="1726973709478" MODIFIED="1726973793614"/>
 <node TEXT="02.2 Understanding How Data Comes to Life" ID="ID_79842580" CREATED="1726973793764" MODIFIED="1726973804478"/>
 <node TEXT="02.3 Examining the Various Types of Data Analytics" ID="ID_402362374" CREATED="1726973805892" MODIFIED="1726973823102"/>
