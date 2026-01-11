@@ -2,6 +2,7 @@
 
 - [Part 1 - Chapter 03: Oh, the Choices: Power BI Versions](#part-1---chapter-03-oh-the-choices-power-bi-versions)
   - [3.1 Why Power BI versus Excel?](#31-why-power-bi-versus-excel)
+  - [3.2 Power BI Products](#32-power-bi-products)
 
 ## 3.1 Why Power BI versus Excel?
 
@@ -12,3 +13,11 @@
 | Visualization Capabilities | <ul> <li>Standard chart types</li> <li>Limited customization options</li> <li>Static visualizations are used in most cases</li> <li>Familiar charting interface</li> </ul> | <ul> <li>Extensive library of custom visuals</li> <li>Interactive and dynamic visualizations</li> <li>Cross-filtering between multiple charts</li> <li>Custom visual marketplace with hundreds of options</li> </ul> |
 | Collaboration and Sharing | <ul> <li>File-based sharing (Email, Sharepoint)</li> <li>Version control challenges</li> <li>Limited real-time collaboration</li> <li>Requires an Excel license for full functionality</li> </ul> | <ul> <li>Cloud-based sharing and collaboration</li> <li>Centralized report management</li> <li>Real-time updates for all users</li> <li>Web-based access without desktop software</li> </ul> |
 | Cost Analysis | <ul> <li>Part of the Microsoft Office suite ($8.25-$22/user/month)</li> <li>One-time purchase options available</li> <li>No additional licensing for basic dashboard features</li> <li>Hidden costs in maintenance and version control</li> </ul> | <ul> <li>Power BI Pro: $10/user/month</li> <li>Power BI Premium: $20/user/month or $5,000/month capacity-based</li> <li>Additional costs for an on-premises data gateway</li> <li>Potential savings through improved efficiency and automation</li> </ul> |
+
+## 3.2 Power BI Products
+
+[Here](https://www.microsoft.com/en-us/power-platform/products/power-bi) is the page for Microsoft's Power BI product within Power Platform
+
+---
+
+Last Updated at 2026-01-11
