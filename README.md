@@ -24,9 +24,19 @@ The online course will base on the book's chapter in sequence and adding practic
 <!-- ![book-structure-level1](img/PowerBI_Tutorial_mm-level1.png) -->
 
 - [Part 1: Put Your BI Thinking Caps On](./part1/README.md)
-- 
+- Part 2: It's Time to have a Data Party
+- Part 3: The Art and Science of Power BI
+- Part 4: Oh, No! There's a Power BI Programming Language!
+- Part 5: Enhancing Your Power BI Experience
+- Part 6: The Part of Tens
+- ...road to Microsoft Certification relating to Power BI
 
 You may read the mindmap's export [here in Markdown](PowerBI_Tutorial.md), well, better you install FreePlane to open the mindmap file directly!
+
+## Demo Videos
+
+- [Packaged Courses in Udemy](): coming sooning, and thanks for your supporting!
+- [Video list in YouTube channel](https://www.youtube.com/playlist?list=PL6DEHvciXKeWoB90UGYbddjFy-PufqDXs): this is sharing free, welcome to subscribe or become members to my channel!
 
 ---
 
