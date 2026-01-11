@@ -38,6 +38,19 @@ You may read the mindmap's export [here in Markdown](PowerBI_Tutorial.md), well,
 - [Packaged Courses in Udemy](): coming sooning, and thanks for your supporting!
 - [Video list in YouTube channel](https://www.youtube.com/playlist?list=PL6DEHvciXKeWoB90UGYbddjFy-PufqDXs): this is sharing free, welcome to subscribe or become members to my channel!
 
+## Find Datasets for Practicing
+
+- [kaggle datasets library](https://www.kaggle.com/datasets)
+- [data world sample datasets (need login)](https://data.world/datasets/open-data)
+- [google dataset search](https://datasetsearch.research.google.com/)
+- [US Data.Gov Catalog](https://catalog.data.gov/dataset/)
+- Sample data with longitude and latitude for Map
+  - [World Cities Database](https://simplemaps.com/data)
+  - [OpenFlights Airports Database](https://openflights.org/data.html)
+  - [SGS Earthquake Data](https://earthquake.usgs.gov/earthquakes/feed/v1.0/csv.php)
+  - [Global Power Plant Database](https://datasets.wri.org/dataset/globalpowerplantdatabase)
+  - [World Heritage Sites](https://whc.unesco.org/en/list/xls/)
+
 ---
 
-Stay tunes for the course being publishing soon...
+Last Updated as 2026-01-11

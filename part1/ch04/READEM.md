@@ -7,6 +7,10 @@
     - [4.1.3 Analyzing Data](#413-analyzing-data)
     - [4.1.4 Creating and Publishing Items](#414-creating-and-publishing-items)
   - [4.2 Services: Far and Wide](#42-services-far-and-wide)
+    - [4.2.1 Viewing and Editing Reports](#421-viewing-and-editing-reports)
+    - [4.2.2 Workign with Dashboards](#422-workign-with-dashboards)
+    - [4.2.3 Collaborating inside Power BI Services](#423-collaborating-inside-power-bi-services)
+    - [4.2.4 Refreshing Data](#424-refreshing-data)
 
 ## 4.1 Power BI Desktop: A Top-Down View
 
@@ -49,3 +53,15 @@ A Power BI designer builds out dashboard visualizations, referred to as *tiles*,
 When you publish items from Power BI Desktop to Power BI Services, the files are workspace bound.
 
 ## 4.2 Services: Far and Wide
+
+### 4.2.1 Viewing and Editing Reports
+
+### 4.2.2 Workign with Dashboards
+
+### 4.2.3 Collaborating inside Power BI Services
+
+### 4.2.4 Refreshing Data
+
+---
+
+Last updated at 2026-01-11
