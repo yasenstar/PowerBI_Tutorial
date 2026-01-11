@@ -24,7 +24,7 @@ The online course will base on the book's chapter in sequence and adding practic
 <!-- ![book-structure-level1](img/PowerBI_Tutorial_mm-level1.png) -->
 
 - [Part 1: Put Your BI Thinking Caps On](./part1/README.md)
-- Part 2: It's Time to have a Data Party
+- [Part 2: It's Time to have a Data Party](./part2/README.md)
 - Part 3: The Art and Science of Power BI
 - Part 4: Oh, No! There's a Power BI Programming Language!
 - Part 5: Enhancing Your Power BI Experience
