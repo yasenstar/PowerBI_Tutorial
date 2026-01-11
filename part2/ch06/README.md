@@ -1,6 +1,6 @@
-# Part 2 - Chapter 06: Getting Data from Dynamic Sources
+# Part 2 - Chapter 6: Getting Data from Dynamic Sources
 
-- [Part 2 - Chapter 06: Getting Data from Dynamic Sources](#part-2---chapter-06-getting-data-from-dynamic-sources)
+- [Part 2 - Chapter 6: Getting Data from Dynamic Sources](#part-2---chapter-6-getting-data-from-dynamic-sources)
   - [06.1 Getting Data from Microsoft-Based File Systems](#061-getting-data-from-microsoft-based-file-systems)
   - [06.2 Working with Relational Data Sources](#062-working-with-relational-data-sources)
   - [06.3 Importing Data from a Non-relational Data Source](#063-importing-data-from-a-non-relational-data-source)
