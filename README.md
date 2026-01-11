@@ -40,6 +40,8 @@ You may read the mindmap's export [here in Markdown](PowerBI_Tutorial.md), well,
 
 ## Find Datasets for Practicing
 
+Thanks sharing from https://www.vahiddm.com/
+
 - [kaggle datasets library](https://www.kaggle.com/datasets)
 - [data world sample datasets (need login)](https://data.world/datasets/open-data)
 - [google dataset search](https://datasetsearch.research.google.com/)
