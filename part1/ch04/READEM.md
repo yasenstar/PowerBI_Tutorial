@@ -4,6 +4,8 @@
   - [4.1 Power BI Desktop: A Top-Down View](#41-power-bi-desktop-a-top-down-view)
     - [4.1.1 Ingesting Data](#411-ingesting-data)
     - [4.1.2 Building Data Models](#412-building-data-models)
+    - [4.1.3 Analyzing Data](#413-analyzing-data)
+    - [4.1.4 Creating and Publishing Items](#414-creating-and-publishing-items)
   - [4.2 Services: Far and Wide](#42-services-far-and-wide)
 
 ## 4.1 Power BI Desktop: A Top-Down View
@@ -32,6 +34,18 @@ Key characteristics of data models:
 - Relationships exist between the loaded tables with data
 - Formulas, also knows as *measures*, apply business rules to the raw data to extract, transform, and load (ETL) to create meaningful business insights
 
+A *data model* is a reusable asset that, when tweaked a little depending on the business need, can dramatically reduce development efforts and cut costs.
 
+**Reuse, Reduce, Recycle**
+
+### 4.1.3 Analyzing Data
+
+Note: the https://appsource.microsoft.com has been changed to https://marketplace.microsoft.com/, which is the source for explore apps in Microsoft.
+
+A Power BI designer builds out dashboard visualizations, referred to as *tiles*, using data in reports and datasets.
+
+### 4.1.4 Creating and Publishing Items
+
+When you publish items from Power BI Desktop to Power BI Services, the files are workspace bound.
 
 ## 4.2 Services: Far and Wide
