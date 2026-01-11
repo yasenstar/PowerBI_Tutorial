@@ -8,6 +8,9 @@
     - [5.4.1 Import data into a data model](#541-import-data-into-a-data-model)
     - [5.4.2 Dual Mode](#542-dual-mode)
   - [5.5 Considering the Query](#55-considering-the-query)
+    - [5.5.1 Addressing and Correcting Performance](#551-addressing-and-correcting-performance)
+    - [5.5.2 Diagnosing Queries](#552-diagnosing-queries)
+  - [5.6 Exporting Power BI Desktop Files and Leveraging XMLA](#56-exporting-power-bi-desktop-files-and-leveraging-xmla)
 
 ## 5.1 Getting Data from the Source
 
@@ -58,3 +61,15 @@ The method that ensures the most **accuracy** is `Import mode`.
 | Data Transformation | All features | Limited based on data source transformation language. | Not applicable |
 | Modeling requirements | All features | Significant limitations | Analysis services and Power BI Services measures created with limitations. |
 
+### 5.5.1 Addressing and Correcting Performance
+
+### 5.5.2 Diagnosing Queries
+
+## 5.6 Exporting Power BI Desktop Files and Leveraging XMLA
+
+- PBIDS: Power BI Desktop
+- XMLA: XML for Analysis
+
+---
+
+Last Updated at 2026-01-11
