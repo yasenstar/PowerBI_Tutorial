@@ -35,7 +35,7 @@ You may read the mindmap's export [here in Markdown](PowerBI_Tutorial.md), well,
 
 ## Demo Videos
 
-- [Packaged Courses in Udemy](https://www.udemy.com/course/microsoft-powerbi-in-action/?referralCode=D75EEB3C39848CDFCAFE): coming sooning, and thanks for your supporting!
+- [Packaged Courses in Udemy](https://www.udemy.com/course/microsoft-powerbi-in-action/?referralCode=D75EEB3C39848CDFCAFE): enroll with this promotion link from me, and thanks for your supporting!
 - [Video list in YouTube channel](https://www.youtube.com/playlist?list=PL6DEHvciXKeWoB90UGYbddjFy-PufqDXs): this is sharing free, welcome to subscribe or become members to my channel!
 
 ## Find Datasets for Practicing
